@@ -1,0 +1,124 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    background: rgb(4,93,79);
+    background: linear-gradient(150deg, rgba(4,93,79,1) 0%, rgba(158,38,155,1) 0%, rgba(0,36,140,1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+.title-header {
+    background-color: rgba(34, 37, 39, 0.4);
+    color: ghostwhite;
+    margin: 0.5em;
+    padding-inline: 3em;
+    border-radius: 18px;
+    text-align: center;
+}
+
+.title, .table-data {
+    display: flex;
+    justify-content: center;
+    transition: width 2s;
+}
+
+.searchbar {
+    padding-bottom: 1em;
+}
+
+.searchbar input{
+    background: rgba(255, 255, 255, 0.15);
+    padding: 1em 7em;
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+    color: rgb(165, 168, 170); ;
+    outline: none;
+    box-shadow: 2px 2px rgba(31, 27, 27, 0.533);
+}
+
+.searchbar-button {
+    background: rgba(68, 60, 134, 0.3);
+    margin-left: 1em;
+    padding: 0.9em;
+    border-radius: 25px;
+    border: 5px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+    color: rgb(183, 198, 207); ;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 2px 2px rgba(31, 27, 27, 0.533);
+}
+
+.searchbar-button:active{
+    background: rgba(77, 76, 76, 0.4);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+::placeholder {
+    color: rgb(165, 168, 170);
+  }
+
+
+
+.content-tab {
+    border-collapse: collapse;
+    width: 60vw;
+}
+
+.content-tab td{
+    padding-inline: 3vw;
+    padding-block: 35px;
+    width: 20vh;
+}
+
+.content-tab tr{
+    text-align: center;
+}
+
+.content-tab thead {
+    background-color: rgba(38, 38, 41, 0.7);
+    font-size: 30px;
+    color: rgb(145, 110, 241);
+
+}
+
+.content-tab tbody {
+    background-color: rgba(20, 20, 22, 0.6);
+    color: rgb(185, 185, 185);
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+.tr-team {
+    color: rgb(248, 83, 83);
+}
+
+.country {
+    color: rgb(255, 255, 255);
+}
+
+.away-win-text {
+    color: rgb(199, 39, 28);
+}
+
+.home-win-text {
+    color: rgb(90, 218, 117);
+}
+
+.draw-text {
+    color: orange;
+}
+
