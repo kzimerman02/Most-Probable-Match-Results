@@ -4,7 +4,7 @@
 
 A JSON Server application showing the highest probable match results
 
-Printed results are start date, competitors (teams and countries names), venue and highest probability of match result
+Printed results are start date, competitors (teams and countries names), venue and highest probability of match result. 
 Website contains searchbar which allows to search number of printed results. It can be used by button or by pressing enter
 
 ////////
